@@ -1,0 +1,46 @@
+[
+    {
+        "id": "4cee1a674406da2f",
+        "type": "ui_gauge",
+        "z": "82dd7cf5a98fa6c2",
+        "name": "Barometer",
+        "group": "f9412ecc.e353b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Barometer",
+        "label": "mbar",
+        "format": "{{value}}",
+        "min": "900",
+        "max": "1100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 850,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f9412ecc.e353b",
+        "type": "ui_group",
+        "name": "Environment Control",
+        "tab": "55925672.3514d8",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "55925672.3514d8",
+        "type": "ui_tab",
+        "name": "PiSenseHAT",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

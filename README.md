@@ -10,6 +10,12 @@ Ci-joint le fichier json, cependant l'adresse IP de ma raspberry change car je c
 Donc les adresses IP inscrites sur le node MQTT out change.  
 
 Pour la RP1:   
-Nous ne pouvions pas envoyer les informations MOTION et ENVIRONNEMENT en même temps.  
+Nous ne pouvions pas envoyer les informations MOTION et ENVIRONNEMENT en même temps.
+Nous avons donc paramétré le node sense hat sur l'outputs Motion events.
 Donc la RP1 recoit les informations d'ENVIRONMENT SENSORS et envoit les informations de MOTIONS SENSORS.  
 Le message 'textBox' est aussi envoyé de la RP1 vers la RP2.  
+Je  place aussi des debugg aprés les nodes mqtt in pour vérifier la bonne récéption du message puis je l'affiche via le dashboard.
+Attention à bien configurer les mqtt in sur le server localhost  
+
+Pour la RP2:  
+J'ai été en binome avec Mylaine  
